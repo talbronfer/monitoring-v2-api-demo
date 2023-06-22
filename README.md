@@ -48,7 +48,7 @@ import requests
 First, we'll configure our `headers` dictionary so that it includes the API keys, and save the API's base url:
 
 ```python
-base_url = "https://monitoringapi.solaredge.com/v2/monitoring"
+base_url = "https://monitoringapi.solaredge.com/v2"
 
 headers = {
     'X-Account-Key': "ACCOUNT_KEY",
